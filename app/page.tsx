@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client'
 import { HStack,Button } from "@chakra-ui/react"
 
 export default function Home() {
