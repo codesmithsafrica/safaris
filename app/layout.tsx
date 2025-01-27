@@ -1,21 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Provider } from "@/components/ui/provider"
 
-const geistSans = Geist({
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  weight: "100 900",
 });
-
-const geistMono = Geist_Mono({
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {
   title: "Safaris",
-  description: "Onestop shop for safaris",
+  description: "One stop site for Safaris",
 };
 
 export default function RootLayout({
@@ -24,12 +25,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-          <Provider>{children}</Provider>
-      </body>
+    <html lang="en">
+      <head />
+      <Provider>
+
+        <body
+
+
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          suppressHydrationWarning>
+          {children}
+        </body>
+      </Provider>
+
     </html>
   );
 }
