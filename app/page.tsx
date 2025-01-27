@@ -1,5 +1,5 @@
 'use client'
-import { Card } from '@randukelvin/card'
+// import { Card } from '@randukelvin/card'
 import App from '@/components/App'
 import {
   SimpleGrid,
@@ -8,6 +8,7 @@ import {
 import { useColorModeValue } from '@/components/ui/color-mode'
 import React, { useState, useEffect } from 'react';
 import CaptionCarousel from '@/components/Hero'
+import { Card } from "@/components/Card";
 // import axios from "axios";
 import {
   Skeleton,
@@ -110,6 +111,10 @@ export default function Home() {
             )}
           </>
           )} */}
+            <Card />
+            <Card />
+            <Card />
+            <Card />
 
         </SimpleGrid>
       </Box>

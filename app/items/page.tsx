@@ -9,6 +9,7 @@ import {
 import { useColorModeValue } from '@/components/ui/color-mode'
 import SearchBar from '@/components/SearchBar';
 // import axios from "axios";
+import { Card } from "@/components/Card";
 import { ItemProps } from '../page';
 // import {
 //   Skeleton,
@@ -81,6 +82,10 @@ console.log(setLoading)
           bg={useColorModeValue('white', '#0a0a0a')}
           color={useColorModeValue('gray.600', 'white')}
           paddingTop={20} paddingX={['10px', '20%']} columns={[2, null, 4]} gap={["20px", "40px"]}>
+                        <Card />
+            <Card />
+            <Card />
+            <Card />
 {/* 
           {loading ? (
             <Flex pt={24} align="center" justify="center">
