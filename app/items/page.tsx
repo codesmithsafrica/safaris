@@ -36,6 +36,15 @@ export default function Home() {
   //   });
   //   setLoading(false)
   // }, [items, itemsApiURL, loading]);
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(() => {
+      console.log("Delayed for 3 second.");
+      setLoading(false)
+    }, 3000)
+ 
+
+  },[loading])
   const onSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
 
@@ -82,10 +91,26 @@ console.log(setLoading)
           bg={useColorModeValue('white', '#0a0a0a')}
           color={useColorModeValue('gray.600', 'white')}
           paddingTop={20} paddingX={['10px', '20%']} columns={[2, null, 4]} gap={["20px", "40px"]}>
-                        <Card />
+               <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/1`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/2`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/3`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/4`}>
+            <Card />
+          </Box>
 {/* 
           {loading ? (
             <Flex pt={24} align="center" justify="center">

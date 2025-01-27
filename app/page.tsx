@@ -18,7 +18,7 @@ import {
 export type ItemProps = {
   id: number;
   name: string;
-  image:string;
+  image: string;
   badge: string;
   category: { name: string }
 
@@ -30,7 +30,7 @@ interface Props {
 }
 export default function Home() {
 
-  const items ={}
+  const items = {}
 
   // const [items, SetItems] = useState<Props | null>(null)
   // const [loading, setLoading] = useState(false);
@@ -111,11 +111,26 @@ export default function Home() {
             )}
           </>
           )} */}
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/1`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/2`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/3`}>
             <Card />
+          </Box>
+          <Box as={'a'}
+            //@ts-expect-error:typefix
+            href={`item/4`}>
             <Card />
-
+          </Box>
         </SimpleGrid>
       </Box>
 
