@@ -75,7 +75,7 @@ const App = ({ children }: Iprops) => {
               color={useColorModeValue('gray.800', 'white')}>
               Safaris
             </Text> */}
-                <Image h={25}  src={'logo.jpeg'} alt={'logo'} />
+                <Image h={35}  src={'logo.jpeg'} alt={'logo'} />
 
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
@@ -110,12 +110,13 @@ const App = ({ children }: Iprops) => {
         {children}
       </Box>
       <Box
+      mt={4}
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
-    <Flex>
+    <Flex justifyContent={'space-between'}>
 
   
-            <Image h={25} w={25} src={'logo.jpeg'} alt={'logo'} />
+            <Image h={35} w={35} src={'logo.jpeg'} alt={'logo'} />
         <Text>© 2025 Maiyo Bespoke Tours and Travel . All rights reserved</Text>
         <Stack direction={'row'} 
          //@ts-expect-error:type fix
