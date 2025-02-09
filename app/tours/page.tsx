@@ -18,6 +18,7 @@ export default function Home() {
   const params = useParams<{ id: string }>()
   const [item, SetItems] = useState<Props | null>(null)
   const [loading, setLoading] = useState(false);
+    const description='Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
@@ -49,9 +50,9 @@ export default function Home() {
           <b>{params?.id}</b>
         </Text>
       </Flex>
-      <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={item?.item?.name} 
+      <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'City/Cultural tours'} 
       //@ts-expect-error:fix
-      img={item?.item?.image} description={item?.item?.description} badge={item?.item?.category?.name}/></Box>
+      img={item?.item?.image} description={description} badge={item?.item?.category?.name}/></Box>
     </App>
   );
 }
