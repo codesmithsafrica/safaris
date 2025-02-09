@@ -354,7 +354,7 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label:'City/Coastal Tours',
-        href: `/items`,
+        href: `/tours`,
       },
       {
         label: 'Wildlife Safaris',
