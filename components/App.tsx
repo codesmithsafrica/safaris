@@ -114,7 +114,7 @@ const App = ({ children }: Iprops) => {
       px={4}
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
-    <Flex justifyContent={'space-between'}>
+    <Flex    py={4}justifyContent={'space-between'}>
 
   
             <Image h={35} w={35} src={'logo.jpeg'} alt={'logo'} />
