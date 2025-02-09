@@ -117,38 +117,10 @@ export default function Home() {
 
 
         </Flex>
-        <Box p={4}>
-      <Stack
-         //@ts-expect-error:fix 
-       spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
-   
-        <Text color={'gray.600'} fontSize={'xl'}>
-  We offer the following services
-        </Text>
-      </Stack>
-
-      <Container maxW={'6xl'} mt={10}>
-        <SimpleGrid columns={{ base: 1, md: 2, lg: 2 }} 
-           //@ts-expect-error:fix 
-        spacing={10}>
-          {features.map((feature) => (
-            <HStack key={feature.id} align={'top'}>
-              <Box color={'green.400'} px={2}>
-                {/* <Icon as={CheckIcon} /> */}
-                <Icon as={FcDonate} w={10} h={10} />
-              </Box>
-              <VStack align={'start'}>
-                <Text fontWeight={600}>{feature.title}</Text>
-                <Text color={'gray.600'}>{feature.text}</Text>
-              </VStack>
-            </HStack>
-          ))}
-        </SimpleGrid>
-      </Container>
-    </Box>
+       
         <SimpleGrid columns={{ base: 1, md: 2 }}
           //@ts-expect-error:fix 
-          spacing={10} px={20}>
+          spacing={10} px={['unset','20%']}>
           <Feature
             icon={<Icon as={FcAssistant} w={10} h={10} />}
             title={'Wildlife Safaris'}
