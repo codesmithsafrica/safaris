@@ -7,6 +7,7 @@ import {
   IconButton,
   Stack,
   useBreakpointValue,
+  Image,
   useDisclosure,
   Collapsible,
 } from '@chakra-ui/react'
@@ -61,12 +62,13 @@ const App = ({ children }: Iprops) => {
           </Flex>
           <Flex 
                   alignItems={'center'} flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
+            {/* <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
               Safaris
-            </Text>
+            </Text> */}
+                <Image h={40}  src={'logo.jpeg'} alt={'logo'} />
 
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
@@ -283,9 +285,32 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/',
   },
   {
-    label: 'Safaris',
-    href: '/items/',
+    label: 'Services',
+    children: [
+      {
+        label:'City/Coastal Tours',
+        href: `/items`,
+      },
+      {
+        label: 'Wildlife Safaris',
+        href: `/safaris`,
+      },
+      {
+        label: 'Hidden gems',
+        href: `/gems`,
+      },
+      {
+        label: 'Custom Itenaries',
+        href: '/itenaries',
+      },
+      {
+        label: 'Transport',
+        href: '/transport',
+      },      
+   
+    ],
   },
+
   {
     label: 'About Us',
     href: '/about/',

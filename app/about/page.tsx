@@ -17,7 +17,7 @@ export default function Home() {
       >
         <Text ml={2} mb={2} fontSize="sm">
           {"About Us"}{' '}
-          {/* <b>{'Wapi magazines'}</b> */}
+          Maiyo Bespoke Tours and Travel  is a tour and travel company based in Mtwapa, Kilifi County, coastal Kenya.  Our slogan, "Your Experience, Our Passion," reflects our commitment to providing exceptional travel experiences throughout coastal Kenya and East Africa. We offer a comprehensive range of services, including safaris, city tours, exploration of hidden gems, bookings, transportation, and tailored travel packages
         </Text>
       </Flex>
     </App>

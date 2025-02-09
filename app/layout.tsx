@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Safaris",
+  title: "Maiyo Bespoke Tours and Travel",
   description: "One stop site for Safaris",
 };
 
