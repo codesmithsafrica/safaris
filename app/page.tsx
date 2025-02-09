@@ -75,11 +75,26 @@ export default function Home() {
     <App>
       <CaptionCarousel />
 
+      <Box p={4}>
+      <Stack
+         //@ts-expect-error:fix 
+       spacing={4}  maxW={'3xl'} textAlign={'center'}>
+        <Heading fontSize={'3xl'}>Who are we?</Heading>
+        <Text color={'gray.600'} fontSize={'xl'}>
+        Maiyo Adventures is a Mtwapa, Kilifi County-based tour and travel company dedicat
+to delivering immersive, sustainable travel experiences across coastal Kenya and East
+Africa. With the slogan “Your Experience, Our Passion,” we cater to domestic and
+international tourists seeking authentic cultural encounters, wildlife safaris, and curated
+adventures..
+        </Text>
+      </Stack>
+
+    </Box>
       <Box p={4}px={4}>
       <Flex justifyContent={'center'}alignItems={'center'}
         
         >
-          <Heading mt={4} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
+          <Heading mt={4} mb={4} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
             Our Services
           </Heading>
       
@@ -87,7 +102,7 @@ export default function Home() {
         </Flex>
       <SimpleGrid columns={{ base: 1, md: 3 }}
          //@ts-expect-error:fix 
-      spacing={10}>
+      spacing={10} px={10}>
         <Feature
           icon={<Icon as={FcAssistant} w={10} h={10} />}
           title={'Wildlife Safaris'}
