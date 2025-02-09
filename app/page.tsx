@@ -135,7 +135,7 @@ export default function Home() {
           {features.map((feature) => (
             <HStack key={feature.id} align={'top'}>
               <Box color={'green.400'} px={2}>
-                <Icon as={CheckIcon} />
+                {/* <Icon as={CheckIcon} /> */}
               </Box>
               <VStack align={'start'}>
                 <Text fontWeight={600}>{feature.title}</Text>
