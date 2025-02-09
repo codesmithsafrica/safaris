@@ -118,7 +118,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
                 bg: 'red.400',
                 zIndex: -1,
               }}>
-              {'Kisite Mpunguti'}
+              {name}
             </Text>
 
           </Heading>) : (<Stack maxW={'full'} gap="6">
@@ -135,14 +135,13 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             lineHeight={'20px'}
             letterSpacing={'0.1px'}
             borderRadius='full' py={1} px={4} >
-            {!loading ? 'Beach Tour' : 'restaurants'}
+        ksh 5000
           </Badge>) : (<Stack gap="6" width={100}>
 
             <Skeleton borderRadius={'full'} height={'40px'} />
           </Stack>)}
           {!loading ? (<Text color={'gray.500'}>
-            {!loading ? `Kisite-Mpunguti Marine National Park is situated on the southern coast of Kenya near Shimoni and south of Wasini Island in Kwale County near the Tanzanian border. Kisite park covers 11 square kilometres while Mpunguti reserve covers 28 square kilometres` : `Kisite Mpunguti Beach Tour and what it entails`}
-          </Text>) : (<Stack gap="6" maxW={'xs'}>
+            {description}   </Text>) : (<Stack gap="6" maxW={'xs'}>
 
             <SkeletonText noOfLines={3} />
           </Stack>)}
@@ -167,21 +166,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
               _hover={{ bg: 'orange.500' }}>
               Enquire
             </Button>
-            <Button
-              as={'a'}
-              //@ts-expect-error:type fix
-              href={'https://billing.stripe.com/p/session/live_YWNjdF8xUEdHQkNSb3Q4VFMwN3k2LF9SZkdLY21UQ0IxM0swc2ljZDJqcGg3YXFGbU90d3BM0100Y66NmOWE'}
-              rounded={'full'}
-              size={'lg'}
-              colorScheme={'orange'}
-              fontWeight={'normal'}
-              bg={'orange.400'}
-              _hover={{ bg: 'orange.500' }}
-              px={6}
-
-              leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-              Pay
-            </Button>
+        
           </Stack>
         </Stack>
 
