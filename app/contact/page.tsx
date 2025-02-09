@@ -37,15 +37,7 @@ export default function Home() {
  console.log('slug',params?.slug)
   return (
     <App>
-      <Flex
-        bg={useColorModeValue('white', '#0a0a0a')}
-        color={useColorModeValue('gray.600', 'white')}
-      >
-        <Text ml={2} mb={2} fontSize="sm">
-          {"Contacts"}{' '}
-          {/* <b>{'Wapi magazines'}</b> */}
-        </Text>
-      </Flex>
+   
       <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
       <Flex>
         <Box

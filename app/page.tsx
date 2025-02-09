@@ -76,10 +76,13 @@ export default function Home() {
       <CaptionCarousel />
 
       <Box p={4}>
+      <Flex justifyContent={'center'}alignItems={'center'}
+        
+        >
       <Stack
          //@ts-expect-error:fix 
        spacing={4}  maxW={'3xl'} textAlign={'center'}>
-        <Heading fontSize={'3xl'}>Who are we?</Heading>
+        <Heading  fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Who are we?</Heading>
         <Text color={'gray.600'} fontSize={'xl'}>
         Maiyo Adventures is a Mtwapa, Kilifi County-based tour and travel company dedicat
 to delivering immersive, sustainable travel experiences across coastal Kenya and East
@@ -88,6 +91,7 @@ international tourists seeking authentic cultural encounters, wildlife safaris, 
 adventures..
         </Text>
       </Stack>
+      </Flex>
 
     </Box>
       <Box p={4}px={4}>
