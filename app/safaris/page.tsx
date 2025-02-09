@@ -18,6 +18,7 @@ export default function Home() {
   const params = useParams<{ id: string }>()
   const [item, SetItems] = useState<Props | null>(null)
   const [loading, setLoading] = useState(false);
+  const badge="ksh 25k–15k pp"
    const description='3–7-day tours to Tsavo East/West, Amboseli, and Maasai Mara. Includes luxury lodges/camping..'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
@@ -41,18 +42,10 @@ export default function Home() {
 
   return (
     <App>
-      <Flex
-        bg={useColorModeValue('white', '#0a0a0a')}
-        color={useColorModeValue('gray.600', 'white')}
-      >
-        <Text ml={2} mb={2} fontSize="sm">
-          {"All"}{' '}
-          <b>{params?.id}</b>
-        </Text>
-      </Flex>
+ 
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Wildlife Safaris'} 
       //@ts-expect-error:fix
-      img={item?.item?.image} description={description} badge={item?.item?.category?.name}/></Box>
+      img={item?.item?.image} description={description} badge={badge}/></Box>
     </App>
   );
 }

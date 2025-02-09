@@ -155,7 +155,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             <Button
               as={'a'}
               //@ts-expect-error:type fix
-              href="tel:+254 781294921"
+              href="tel:+254 75962203"
   
               rounded={'full'}
               size={'lg'}
