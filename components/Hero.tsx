@@ -120,7 +120,8 @@ export default function CaptionCarousel() {
               //@ts-expect-error:fix
                 spacing={6}
                 w={'full'}
-                maxW={'md'}
+                ml={['unset',4]}
+                // maxW={'md'}
                 position="absolute"
                 top="70%"
                 transform="translate(0, -50%)">
