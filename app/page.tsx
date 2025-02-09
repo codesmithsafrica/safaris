@@ -135,7 +135,7 @@ export default function Home() {
             <HStack key={feature.id} align={'top'}>
               <Box color={'green.400'} px={2}>
                 {/* <Icon as={CheckIcon} /> */}
-                <Icon as={CheckIcon} w={10} h={10} />
+                <Icon as={FcDonate} w={10} h={10} />
               </Box>
               <VStack align={'start'}>
                 <Text fontWeight={600}>{feature.title}</Text>
