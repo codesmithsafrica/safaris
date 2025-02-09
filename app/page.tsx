@@ -52,7 +52,7 @@ const Feature = ({ title, text, icon }: FeatureProps) => {
   return (
     <Stack>
       <Flex
-        w={16}
+        w={10}
         h={16}
         align={'center'}
         justify={'center'}
