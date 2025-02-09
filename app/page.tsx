@@ -75,132 +75,57 @@ export default function Home() {
     <App>
       <CaptionCarousel />
 
-      <Box p={4}>
+      <Box p={4}px={4}>
+      <Flex justifyContent={'center'}alignItems={'center'}
+        
+        >
+          <Heading mt={4} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
+            Our Services
+          </Heading>
+      
+
+        </Flex>
       <SimpleGrid columns={{ base: 1, md: 3 }}
          //@ts-expect-error:fix 
       spacing={10}>
         <Feature
           icon={<Icon as={FcAssistant} w={10} h={10} />}
-          title={'Lifetime Support'}
+          title={'Wildlife Safaris'}
           text={
-            'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+            '3–7-day tours to Tsavo East/West, Amboseli,and Maasai Mara. Includes luxury lodges/camping.'
           }
         />
         <Feature
           icon={<Icon as={FcDonate} w={10} h={10} />}
-          title={'Unlimited Donations'}
+          title={'Coastal Cultural Tours'}
           text={
-            'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+            'Guided visits to Lamu Old Town (UNESCO site),Mombasa Fort Jesus, Giriama villages.'
           }
         />
         <Feature
           icon={<Icon as={FcInTransit} w={10} h={10} />}
-          title={'Instant Delivery'}
+          title={'Hidden Gems'}
           text={
-            'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+            'Exclusive experiences: Dabaso Village(bio-farming), Kayaking in Mida Creek, Kaya Forest rituals'
           }
         />
                 <Feature
           icon={<Icon as={FcDonate} w={10} h={10} />}
-          title={'Unlimited Donations'}
+          title={'Tailored Packages'}
           text={
-            'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+            'Custom itineraries (e.g., “Luxury Honeymoon” or “Family Adventure”)'
           }
         />
         <Feature
           icon={<Icon as={FcInTransit} w={10} h={10} />}
-          title={'Instant Delivery'}
+          title={'Transportation'}
           text={
-            'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+            'Fleet of 4x4 Land Cruisers, minibuses, and boats.'
           }
         />
       </SimpleGrid>
     </Box>
-      <Box bg={useColorModeValue('white', '#0a0a0a')}
-        color={useColorModeValue('gray.600', 'white')}
-        paddingX={['10px', '20%']}
-      >
-        <Flex justifyContent={'space-between'}
-          paddingTop={4}
-        >
-          <Heading mt={4} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
-            Featured Safaris
-          </Heading>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={'items/'}>
-            <Text mt={4} fontWeight={500} fontSize={{ base: 'md', lg: 'xl' }} color={color}>
-              view all
-            </Text>
-          </Box>
-
-        </Flex>
-
-
-        <SimpleGrid
-          bg={useColorModeValue('white', '#0a0a0a')}
-          color={useColorModeValue('gray.600', 'white')}
-          paddingTop={4}
-          columns={[2, null, 4]} gap={["20px", "40px"]}>
-
-          {/* {loading ? (
-            <Flex pt={24} align="center" justify="center">
-              <VStack colorPalette="teal">
-                <Spinner color={color} />
-                <Text >Loading Spots...</Text>
-              </VStack>
-            </Flex>
-          ) : (<>
-
-            {items?.items?.length ? (
-              // eslint-disable-next-line
-              items?.items?.map((item: ItemProps, index: number) => <Box as={'a'}
-                //@ts-expect-error:typefix
-                href={`item/${item?.id}`}><Card  name={item?.name} src={`/restaurants/${item?.image}`} badge={item?.category?.name} /></Box>)
-            ) : (<>
-              <Stack gap="6" maxW="xs">
-
-                <Skeleton height="200px" />
-              </Stack>
-              <Stack gap="6" maxW="xs">
-
-                <Skeleton height="200px" />
-              </Stack>
-              <Stack gap="6" maxW="xs">
-
-                <Skeleton height="200px" />
-              </Stack>
-              <Stack gap="6" maxW="xs">
-
-                <Skeleton height="200px" />
-              </Stack>
-            </>
-
-            )}
-          </>
-          )} */}
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/1`}>
-            <Card />
-          </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/2`}>
-            <Card />
-          </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/3`}>
-            <Card />
-          </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/4`}>
-            <Card />
-          </Box>
-        </SimpleGrid>
-      </Box>
+   
 
     </App>
   );
