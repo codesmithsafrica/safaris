@@ -107,7 +107,7 @@ export default function Home() {
         </Flex>
 
       </Box>
-      <Box p={4} px={4}>
+      <Box px={['unset','20%']} p={4} >
         <Flex justifyContent={'center'} alignItems={'center'}
 
         >
@@ -120,7 +120,7 @@ export default function Home() {
        
         <SimpleGrid columns={{ base: 1, md: 2 }}
           //@ts-expect-error:fix 
-          spacing={10} justifyContent={'center'} alignItems={'center'} ml={['unset',20]} px={['unset','20%']}>
+          spacing={10} justifyContent={'center'} alignItems={'center'}  >
           <Feature
             icon={<Icon as={FcAssistant} w={10} h={10} />}
             title={'Wildlife Safaris'}

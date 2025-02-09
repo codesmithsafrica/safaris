@@ -135,7 +135,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             lineHeight={'20px'}
             letterSpacing={'0.1px'}
             borderRadius='full' py={1} px={4} >
-        ksh 5000
+        {badge}
           </Badge>) : (<Stack gap="6" width={100}>
 
             <Skeleton borderRadius={'full'} height={'40px'} />
