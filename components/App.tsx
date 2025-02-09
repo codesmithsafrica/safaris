@@ -68,7 +68,7 @@ const App = ({ children }: Iprops) => {
               color={useColorModeValue('gray.800', 'white')}>
               Safaris
             </Text> */}
-                <Image h={40}  src={'logo.jpeg'} alt={'logo'} />
+                <Image h={15}  src={'logo.jpeg'} alt={'logo'} />
 
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
