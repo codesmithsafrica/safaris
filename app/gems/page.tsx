@@ -42,7 +42,7 @@ export default function Home() {
     },
   ]
   
-    const description='Exclusive experiences: Dabaso Village (bio-farming), Kayaking in Mida Creek, Kaya Forest rituals.'
+    const description='Mombasa’s coastal region is brimming with hidden gems waiting to be explored. Discover the serene shores of Gede Ruins, where ancient Swahili architecture meets lush greenery, offering a glimpse into the past. Explore the tranquil Pemba Channel, ideal for snorkeling and diving, showcasing vibrant coral reefs. Visit the secluded Mombasa Marine National Park for a quiet retreat amidst nature. For history lovers, the lesser-known Fort Jesus Museum offers intriguing stories beyond the main attractions. Don’t miss the peaceful Mtwapa Creek, perfect for a quiet boat ride, and the untouched beaches of Mombasa coast .Exclusive experiences: Dabaso Village (bio-farming), Kayaking in Mida Creek, Kaya Forest rituals.'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)

@@ -18,7 +18,7 @@ export default function Home() {
   const params = useParams<{ id: string }>()
   const [item, SetItems] = useState<Props | null>(null)
   const [loading, setLoading] = useState(false);
-    const description='Fleet of 4x4 Land Cruisers, minibuses, and boats.'
+    const description=`Travel in comfort and style with our diverse fleet of 4x4 Land Cruisers, minibuses, and luxurious boats and yachts, designed to enhance your touring experience across Kenya. Whether you're exploring the rugged landscapes of national parks, enjoying a beach getaway, or cruising along the coast, our vehicles offer the perfect blend of comfort and reliability. Our 4x4 Land Cruisers are ideal for safaris, ensuring a smooth ride even in the most challenging terrains, while our minibuses cater to group tours, offering spacious seating and modern amenities. For a touch of luxury, enjoy private boat and yacht charters along Kenya's stunning coastline, perfect for a serene day at sea or a sunset cruise. Whatever your travel needs, our fleet ensures your journey is unforgettable.`
       const badge="ksh 5k-20k /day"
       const cards = [
         {

@@ -41,7 +41,11 @@ export default function Home() {
         'custom3.jpg',
       },
     ]
-  const description='Custom itineraries (e.g., “Luxury Honeymoon” or “Family Adventure”).'
+  const description=`Our expert team takes the time to understand your interests, from private safaris in Tsavo National Park to exploring the hidden gems of Mombasa's Old Town and beyond. We offer exclusive access to the most beautiful, less-traveled beaches of Diani, Watamu, and Malindi, ensuring that your experience is both intimate and extraordinary. For those seeking cultural immersion, we arrange visits to local villages, historical sites like the Gede Ruins, and authentic Swahili cooking classes.
+
+We also cater to families, honeymooners, adventure seekers, and solo travelers, offering personalized services like private guides, luxury transportation, and curated experiences based on your interests.
+
+Your comfort and satisfaction are our top priority, with every detail meticulously planned, so you can relax and enjoy the beauty of Kenya’s coast at your own pace. With our custom itineraries, your dream coastal getaway is just a call away..`
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
