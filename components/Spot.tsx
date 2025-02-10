@@ -103,7 +103,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             height={'300px'}
             rounded={'2xl'}
             boxShadow={'2xl'}
-            width={'full'}
+            width={'50%'}
             overflow={'hidden'}>
        {/* CSS files for react-slick */}
        <link
