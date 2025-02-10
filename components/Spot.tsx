@@ -25,7 +25,7 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
 import { useColorModeValue } from './ui/color-mode'
 import Slider from 'react-slick'
 interface Props {
-  name?: string, description?: string, badge?: string, img: string, loading: boolean;
+  name?: string, description?: string, badge?: string, img:any , loading: boolean;
 };
 // Settings for the slider
 const settings = {
@@ -144,7 +144,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
       </IconButton>
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
-        {cards.map((card, index) => (
+        {img.map((card:any, index:any) => (
           <Box
             key={index}
             height={'300px'}

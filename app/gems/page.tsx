@@ -20,6 +20,28 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const badge="ksh 15k–50k pp"
   const image="gems.jpg"
+  const cards = [
+    {
+      title: 'Memorable Safaris ',
+      text: "Let us make your memories unfogettable",
+      image:
+         'gems.jpg'
+        
+    },
+    {
+      title: 'Hidden Gems',
+      text: "Hidden but conspicuous spots  just for you",
+      image:
+      'gems.jpg',
+    },
+    {
+      title: 'City/Coastal Cultural Tours',
+      text: "Directly connect with coastal cultural tours",
+      image:
+      'gems.jpg',
+    },
+  ]
+  
     const description='Exclusive experiences: Dabaso Village (bio-farming), Kayaking in Mida Creek, Kaya Forest rituals.'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
@@ -46,7 +68,7 @@ export default function Home() {
  
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Hidden gems'} 
 
-      img={image} description={description} badge={badge}/></Box>
+      img={cards} description={description} badge={badge}/></Box>
     </App>
   );
 }

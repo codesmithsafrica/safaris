@@ -20,6 +20,27 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const badge="ksh 10k–40k pp"
    const image="tours.jpg"
+   const cards = [
+    {
+      title: 'Memorable Safaris ',
+      text: "Let us make your memories unfogettable",
+      image:
+         'tours.jpg'
+        
+    },
+    {
+      title: 'Hidden Gems',
+      text: "Hidden but conspicuous spots  just for you",
+      image:
+      'tours.jpg',
+    },
+    {
+      title: 'City/Coastal Cultural Tours',
+      text: "Directly connect with coastal cultural tours",
+      image:
+      'tours.jpg',
+    },
+  ]
     const description=`Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.MOMBASA CITY TOUR
 Akamba carvings
 HindumosqUe
@@ -71,7 +92,7 @@ Pate island`
    
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'City/Cultural tours'} 
       
-      img={image} description={description} badge={badge}/></Box>
+      img={cards} description={description} badge={badge}/></Box>
     </App>
   );
 }

@@ -20,6 +20,27 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
     const description='Fleet of 4x4 Land Cruisers, minibuses, and boats.'
       const badge="ksh 5k-20k /day"
+      const cards = [
+        {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             'transport.jpg'
+            
+        },
+        {
+          title: 'Hidden Gems',
+          text: "Hidden but conspicuous spots  just for you",
+          image:
+          'transport.jpg',
+        },
+        {
+          title: 'City/Coastal Cultural Tours',
+          text: "Directly connect with coastal cultural tours",
+          image:
+          'transport.jpg',
+        },
+      ]
          const image="transport.jpg"
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
@@ -46,7 +67,7 @@ export default function Home() {
       
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Transport'} 
 
-      img={image} description={description} badge={badge}/></Box>
+      img={cards} description={description} badge={badge}/></Box>
     </App>
   );
 }
