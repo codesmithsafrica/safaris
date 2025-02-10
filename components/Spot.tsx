@@ -90,7 +90,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
           position={'relative'}
           width={'50%'}>
           <Blob
-            w={'100%'}
+            w={'150%'}
             h={'150%'}
             position={'absolute'}
             top={'-20%'}
@@ -103,7 +103,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             height={'300px'}
             rounded={'2xl'}
             boxShadow={'2xl'}
-            width={'50%'}
+            // width={'50%'}
             overflow={'hidden'}>
        {/* CSS files for react-slick */}
        <link
