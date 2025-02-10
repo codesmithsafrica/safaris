@@ -13,7 +13,7 @@ import { useColorModeValue } from '@/components/ui/color-mode'
 import React, { ReactElement } from 'react';
 import CaptionCarousel from '@/components/Hero'
 import { Card } from "@/components/Card";
-import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc'
+import { FcAssistant, FcDonate, FcInTransit,FcLandscape,FcGlobe ,FcCompactCamera ,FcCloseUpMode  } from 'react-icons/fc'
 // import axios from "axios";
 import {
   Skeleton,
@@ -155,28 +155,28 @@ export default function Home() {
           //@ts-expect-error:fix 
           spacing={10} justifyContent={'center'} alignItems={'center'} ml={['unset',20]} px={['unset','20%']}>
           <Feature
-            icon={<Icon as={FcAssistant} w={10} h={10} />}
+            icon={<Icon as={FcLandscape } w={10} h={10} />}
             title={'Wildlife Safaris'}
             text={
               '3–7-day tours to Tsavo East/West, Amboseli,and Maasai Mara. Includes luxury lodges/camping.'
             }
           />
           <Feature
-            icon={<Icon as={FcDonate} w={10} h={10} />}
+            icon={<Icon as={FcGlobe } w={10} h={10} />}
             title={'Coastal Cultural Tours'}
             text={
               'Guided visits to Lamu Old Town (UNESCO site),Mombasa Fort Jesus, Giriama villages.'
             }
           />
           <Feature
-            icon={<Icon as={FcInTransit} w={10} h={10} />}
+            icon={<Icon as={FcCompactCamera} w={10} h={10} />}
             title={'Hidden Gems'}
             text={
               'Exclusive experiences: Dabaso Village(bio-farming), Kayaking in Mida Creek, Kaya Forest rituals'
             }
           />
           <Feature
-            icon={<Icon as={FcDonate} w={10} h={10} />}
+            icon={<Icon as={FcCloseUpMode} w={10} h={10} />}
             title={'Tailored Packages'}
             text={
               'Custom itineraries (e.g., “Luxury Honeymoon” or “Family Adventure”)'
