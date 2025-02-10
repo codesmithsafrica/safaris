@@ -72,7 +72,7 @@ export default function Home() {
                       <Button
                         size="md"
                         height="48px"
-                        width="250px"
+                        // width="250px"
                         variant="ghost"
                         color="#DCE2FF"
                         _hover={{ border: '2px solid #1C6FEB' }}

@@ -20,7 +20,32 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const badge="ksh 10k–40k pp"
    const image="tours.jpg"
-    const description='Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.'
+    const description=`Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.MOMBASA CITY TOUR
+Akamba carvings
+HindumosqUe
+Elephant task 
+FortJesus
+Old town 
+Mama Ngina garden's Ferry
+-Mombasa History-
+MALINDI CITY  TOUR
+Arabuko sokoke forest(butterflies)
+Gede Ruines
+Vasco da gama pillar
+1st church east and central Africa
+Old court 
+Sabaki bridge
+Falcon birds
+Mabrui Dunes(small Dubai)
+KILIFI TOURS
+Jumbaruines
+Mtwapa ruines
+Kilifi museum 
+Barn owl cave
+Chasimba caves
+Diani Tour
+Shimoni
+Pate island`
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
