@@ -47,20 +47,20 @@ export default function CaptionCarousel() {
       title: 'Memorable Safaris ',
       text: "Let us make your memories unfogettable",
       image:
-         '1.jpg'
+         '4.jpg'
         
     },
     {
       title: 'Hidden Gems',
       text: "Curated Beach Tours  just for you",
       image:
-        '2.jpg',
+        '6.jpg',
     },
     {
       title: 'City/Coastal Cultural Tours',
-      text: "Directly connect with bush and village tours",
+      text: "Directly connect with coastal cultural tours",
       image:
-        '3.jpg',
+        '5.jpg',
     },
   ]
 
