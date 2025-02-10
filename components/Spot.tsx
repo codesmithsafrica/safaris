@@ -121,24 +121,26 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
         aria-label="left-arrow"
         variant="ghost"
         position="absolute"
+        size={'lg'}
         left={side}
         top={top}
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickPrev()}>
-        <BiLeftArrowAlt size="40px" />
+        <BiLeftArrowAlt color='white' size="60px" />
       </IconButton>
       {/* Right Icon */}
       <IconButton
         aria-label="right-arrow"
         variant="ghost"
+        size={'lg'}
         position="absolute"
         right={side}
         top={top}
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickNext()}>
-        <BiRightArrowAlt size="40px" />
+        <BiRightArrowAlt color='white' size="60px" />
       </IconButton>
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
@@ -229,7 +231,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             <Button
               as={'a'}
               //@ts-expect-error:type fix
-              href="tel:+254 75962203"
+              href="tel:+254 759622023"
   
               rounded={'full'}
               size={'lg'}
