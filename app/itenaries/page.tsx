@@ -19,6 +19,7 @@ export default function Home() {
   const [item, SetItems] = useState<Props | null>(null)
   const [loading, setLoading] = useState(false);
   const badge="Bespoke pricing"
+    const image="custom.jpg"
   const description='Custom itineraries (e.g., “Luxury Honeymoon” or “Family Adventure”).'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
@@ -44,8 +45,8 @@ export default function Home() {
     <App>
     
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Custom itineraries'} 
-      //@ts-expect-error:fix
-      img={item?.item?.image} description={description} badge={badge}/></Box>
+ 
+      img={image} description={description} badge={badge}/></Box>
     </App>
   );
 }

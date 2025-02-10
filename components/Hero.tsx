@@ -47,20 +47,20 @@ export default function CaptionCarousel() {
       title: 'Memorable Safaris ',
       text: "Let us make your memories unfogettable",
       image:
-         'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60'
+         '1.jpg'
         
     },
     {
       title: 'Hidden Gems',
       text: "Curated Beach Tours  just for you",
       image:
-        'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        '2.jpg',
     },
     {
       title: 'City/Coastal Cultural Tours',
       text: "Directly connect with bush and village tours",
       image:
-        'https://images.unsplash.com/photo-1662717625010-91e73def5582?q=80&w=2079&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        '3.jpg',
     },
   ]
 

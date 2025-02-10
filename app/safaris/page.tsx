@@ -19,6 +19,7 @@ export default function Home() {
   const [item, SetItems] = useState<Props | null>(null)
   const [loading, setLoading] = useState(false);
   const badge="ksh 25k–15k pp"
+      const image="wildlife.jpg"
    const description='3–7-day tours to Tsavo East/West, Amboseli, and Maasai Mara. Includes luxury lodges/camping..'
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
@@ -44,8 +45,8 @@ export default function Home() {
     <App>
  
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Wildlife Safaris'} 
-      //@ts-expect-error:fix
-      img={item?.item?.image} description={description} badge={badge}/></Box>
+ 
+      img={image} description={description} badge={badge}/></Box>
     </App>
   );
 }

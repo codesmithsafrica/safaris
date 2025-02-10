@@ -48,6 +48,7 @@ export default function Home() {
           m={{ sm: 4, md: 16, lg: 10 }}
           p={{ sm: 5, md: 5, lg: 16 }}>
           <Box
+          display={['unset','flex']}
                 //@ts-expect-error:fix  
           spacing={{ base: 20, sm: 3, md: 5, lg: 20 }} p={4}>
           <Box>

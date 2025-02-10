@@ -20,6 +20,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
     const description='Fleet of 4x4 Land Cruisers, minibuses, and boats.'
       const badge="ksh 5k-20k /day"
+         const image="transport.jpg"
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
@@ -44,8 +45,8 @@ export default function Home() {
     <App>
       
       <Box  bg={useColorModeValue('white', '#0a0a0a')}><Spot loading={loading} name={'Transport'} 
-      //@ts-expect-error:fix
-      img={item?.item?.image} description={description} badge={badge}/></Box>
+
+      img={image} description={description} badge={badge}/></Box>
     </App>
   );
 }
