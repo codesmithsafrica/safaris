@@ -493,6 +493,36 @@ console.log(setLoading)
                 objectFit="contain"
               />
           </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '47.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '48.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '49.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
          
 {/* 
           {loading ? (
