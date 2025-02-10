@@ -131,7 +131,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             fontSize={'14px'}
             fontFamily={'Plus Jakarta Sans'}
             fontWeight={500}
-         
+          w={150}
             lineHeight={'20px'}
             letterSpacing={'0.1px'}
             borderRadius='full' py={1} px={4} >
