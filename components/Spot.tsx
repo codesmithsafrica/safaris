@@ -145,7 +145,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
         {cards.map((card, index) => (
           <Box
             key={index}
-            height={'6xl'}
+            height={'300px'}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
