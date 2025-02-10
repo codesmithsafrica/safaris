@@ -82,133 +82,176 @@ console.log(setLoading)
           color={useColorModeValue('gray.600', 'white')}
           paddingTop={20} paddingX={['10px', '20%']} columns={[2, null, 4]} gap={["20px", "40px"]}>
                <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpeg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '9.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src={'4.jpg'}
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '10.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '11.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '12.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '13.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '14.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '15.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '16.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '17.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '18.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '19.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '20.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '21.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '22.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '2.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
           <Box >
-                <Image
-        borderRadius="full"
-        boxSize="40px"
-        src="2.jpg"
-        alt={`image`}
-      />
+               <Image
+                borderRadius="lg"
+                src={
+                  '4.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
           </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '6.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+
         
     
          
