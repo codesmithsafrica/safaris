@@ -38,13 +38,13 @@ export default function Home() {
           title: 'City/Coastal Cultural Tours',
           text: "Directly connect with coastal cultural tours",
           image:
-          'wildlife2.jpg',
+          'widlife2.jpg',
         },
         {
           title: 'City/Coastal Cultural Tours',
           text: "Directly connect with coastal cultural tours",
           image:
-          'wildlife3.jpg',
+          'widlife3.jpg',
         },
       ]
    const description='3–7-day tours to Tsavo East/West, Amboseli, and Maasai Mara. Includes luxury lodges/camping..'
