@@ -251,9 +251,68 @@ console.log(setLoading)
                 objectFit="contain"
               />
           </Box>
-
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '23.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
         
-    
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '24.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '25.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+              
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '26.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '27.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
+          <Box >
+               <Image
+                borderRadius="lg"
+                src={
+                  '28.jpg'
+                }
+                alt="some good alt text"
+                objectFit="contain"
+              />
+          </Box>
          
 {/* 
           {loading ? (
