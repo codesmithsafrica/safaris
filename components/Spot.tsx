@@ -9,6 +9,7 @@ import {
   Text,
   Button,
   Image,
+  useBreakpointValue,
   Icon,
   IconButton,
   createIcon,
@@ -16,18 +17,61 @@ import {
   Badge
 
 } from '@chakra-ui/react'
-import { useColorModeValue } from './ui/color-mode'
+import React from 'react'
 import {
   Skeleton, SkeletonText
 } from "@/components/ui/skeleton"
+import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi'
+import { useColorModeValue } from './ui/color-mode'
+import Slider from 'react-slick'
 interface Props {
   name?: string, description?: string, badge?: string, img: string, loading: boolean;
 };
+// Settings for the slider
+const settings = {
+  dots: true,
+  arrows: false,
+  fade: true,
+  infinite: true,
+  autoplay: true,
+  speed: 500,
+  autoplaySpeed: 5000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+}
 
-
+const cards = [
+  {
+    title: 'Memorable Safaris ',
+    text: "Let us make your memories unfogettable",
+    image:
+       '7.jpg'
+      
+  },
+  {
+    title: 'Hidden Gems',
+    text: "Hidden but conspicuous spots  just for you",
+    image:
+      '6.jpg',
+  },
+  {
+    title: 'City/Coastal Cultural Tours',
+    text: "Directly connect with coastal cultural tours",
+    image:
+      '5.jpg',
+  },
+]
 
 export default function Spot({ name, description, badge, img, loading }: Props) {
   console.log('name', name, description, img,badge)
+  const [slider, setSlider] = React.useState<Slider | null>(null)
+
+  // These are the breakpoints which changes the position of the
+  // buttons as the screen size changes
+  const top = useBreakpointValue({ base: '90%', md: '50%' })
+  const side = useBreakpointValue({ base: '30%', md: '40px' })
+  const color = useColorModeValue('GrayText', 'white')
+
 
   return (
     <Container maxW={'7xl'} bg={useColorModeValue('white', '#0a0a0a')}>
@@ -61,27 +105,57 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
             boxShadow={'2xl'}
             width={'full'}
             overflow={'hidden'}>
-            <IconButton
-              aria-label={'Play Button'}
-              variant={'ghost'}
-              _hover={{ bg: 'transparent' }}
-              //@ts-expect-error:type fix
-              icon={<PlayIcon w={12} h={12} />}
-              size={'lg'}
-              color={'white'}
-              position={'absolute'}
-              left={'50%'}
-              top={'50%'}
-              transform={'translateX(-50%) translateY(-50%)'}
-            />
-            <Image
-              alt={'Hero Image'}
-              fit={'cover'}
-              align={'center'}
-              w={'100%'}
-              h={'100%'}
-              src={img}
-            />
+       {/* CSS files for react-slick */}
+       <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+      />
+      {/* Left Icon */}
+      <IconButton
+        aria-label="left-arrow"
+        variant="ghost"
+        position="absolute"
+        left={side}
+        top={top}
+        transform={'translate(0%, -50%)'}
+        zIndex={2}
+        onClick={() => slider?.slickPrev()}>
+        <BiLeftArrowAlt size="40px" />
+      </IconButton>
+      {/* Right Icon */}
+      <IconButton
+        aria-label="right-arrow"
+        variant="ghost"
+        position="absolute"
+        right={side}
+        top={top}
+        transform={'translate(0%, -50%)'}
+        zIndex={2}
+        onClick={() => slider?.slickNext()}>
+        <BiRightArrowAlt size="40px" />
+      </IconButton>
+      {/* Slider */}
+      <Slider {...settings} ref={(slider) => setSlider(slider)}>
+        {cards.map((card, index) => (
+          <Box
+            key={index}
+            height={'6xl'}
+            position="relative"
+            backgroundPosition="center"
+            backgroundRepeat="no-repeat"
+            backgroundSize="cover"
+            backgroundImage={`url(${card.image})`}>
+            {/* This is the block you need to change, to customize the caption */}
+         
+          </Box>
+        ))}
+      </Slider>
           </Box>) : (<Box
             position={'relative'}
             height={'300px'}
