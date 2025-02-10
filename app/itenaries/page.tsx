@@ -32,13 +32,13 @@ export default function Home() {
         title: 'Hidden Gems',
         text: "Hidden but conspicuous spots  just for you",
         image:
-        'custom.jpg',
+        'custom2.jpg',
       },
       {
         title: 'City/Coastal Cultural Tours',
         text: "Directly connect with coastal cultural tours",
         image:
-        'custom.jpg',
+        'custom3.jpg',
       },
     ]
   const description='Custom itineraries (e.g., “Luxury Honeymoon” or “Family Adventure”).'

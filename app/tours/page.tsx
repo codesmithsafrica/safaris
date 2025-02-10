@@ -32,13 +32,13 @@ export default function Home() {
       title: 'Hidden Gems',
       text: "Hidden but conspicuous spots  just for you",
       image:
-      'tours.jpg',
+      '1.jpg',
     },
     {
       title: 'City/Coastal Cultural Tours',
       text: "Directly connect with coastal cultural tours",
       image:
-      'tours.jpg',
+      'tours3.jpg',
     },
   ]
     const description=`Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.MOMBASA CITY TOUR

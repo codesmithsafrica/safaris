@@ -25,7 +25,7 @@ export default function Home() {
           title: 'Memorable Safaris ',
           text: "Let us make your memories unfogettable",
           image:
-             'wildlife.jpg'
+             '3.jpg'
             
         },
         {
@@ -38,7 +38,13 @@ export default function Home() {
           title: 'City/Coastal Cultural Tours',
           text: "Directly connect with coastal cultural tours",
           image:
-          'wildlife.jpg',
+          'wildlife2.jpg',
+        },
+        {
+          title: 'City/Coastal Cultural Tours',
+          text: "Directly connect with coastal cultural tours",
+          image:
+          'wildlife3.jpg',
         },
       ]
    const description='3–7-day tours to Tsavo East/West, Amboseli, and Maasai Mara. Includes luxury lodges/camping..'
