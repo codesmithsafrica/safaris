@@ -107,6 +107,39 @@ export default function Home() {
         </Flex>
 
       </Box>
+      <Box p={4}>
+        <Flex justifyContent={'center'} alignItems={'center'}
+
+        >
+          <Stack
+            //@ts-expect-error:fix 
+            spacing={4} maxW={'3xl'} textAlign={'center'}>
+            <Heading fontWeight={700}  mt={4} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Vision</Heading>
+            <Text color={'gray.600'} fontSize={'xl'}>
+            To become East Africa’s most trusted sustainable travel brand, celebrated for
+            innovative itineraries, cultural preservation, and exceptional guest satisfaction.
+            </Text>
+          </Stack>
+        </Flex>
+
+      </Box>
+      <Box p={4}>
+        <Flex justifyContent={'center'} alignItems={'center'}
+
+        >
+          <Stack
+            //@ts-expect-error:fix 
+            spacing={4} maxW={'3xl'} textAlign={'center'}>
+            <Heading fontWeight={700}  mt={4} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Mission</Heading>
+            <Text color={'gray.600'} fontSize={'xl'}>
+            To empower travellers to explore coastal Kenya and East Africa through ethically
+              designed journeys that benefit local economies, conserve ecosystems, and fost
+              cross-cultural understanding.
+            </Text>
+          </Stack>
+        </Flex>
+
+      </Box>
       <Box p={4} px={4}>
         <Flex justifyContent={'center'} alignItems={'center'}
 

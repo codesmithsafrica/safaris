@@ -31,7 +31,7 @@ import {
 } from "@/components/ui/drawer"
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react"
 import { useColorModeValue, useColorMode } from './ui/color-mode'
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaTwitter, FaTiktok  } from 'react-icons/fa'
 
 type Iprops = {
   children: ReactNode;
@@ -122,15 +122,17 @@ const App = ({ children }: Iprops) => {
         <Stack direction={'row'} 
          //@ts-expect-error:type fix
         spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
-          </SocialButton>
-          <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
-          </SocialButton>
-          <SocialButton label={'Instagram'} href={'#'}>
+          <SocialButton label={'Instagram'} href={'https://www.instagram.com/maiyo_bespoketoursandtravel/'}>
             <FaInstagram />
           </SocialButton>
+
+          <SocialButton label={'Tiktok'} href={'https://www.tiktok.com/@bespoketours.travel'}>
+            <FaTiktok />
+          </SocialButton>
+          {/* <SocialButton label={'Twitter'} href={'#'}>
+            <FaTwitter />
+          </SocialButton> */}
+
         </Stack>
         </Flex>
     </Box>
