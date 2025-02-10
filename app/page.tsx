@@ -294,6 +294,8 @@ export default function Home() {
           {/* <Text>We have been working with clients around the world</Text> */}
         </Stack>
         <Stack
+        alignItems={'center'}
+        justifyContent={'center'}
           direction={{ base: 'column', md: 'row' }}
               //@ts-expect-error:fix 
           spacing={{ base: 10, md: 4, lg: 10 }}>
