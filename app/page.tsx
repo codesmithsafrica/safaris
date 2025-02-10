@@ -232,7 +232,7 @@ export default function Home() {
         <Flex justifyContent={'center'} alignItems={'center'}
 
         >
-          <Heading mt={4} mb={4} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
+          <Heading mt={4} mb={8} fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>
             Our Services
           </Heading>
 
