@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import App from '@/components/App'
 import {
   SimpleGrid,
-  Box, Text, Flex, 
+  Box, Text, Flex, Image
 } from "@chakra-ui/react";
 import { useColorModeValue } from '@/components/ui/color-mode'
 import SearchBar from '@/components/SearchBar';
@@ -68,22 +68,12 @@ console.log(setLoading)
 
       >
         <Text ml={2} mb={2} fontSize="sm">
-          {"All"}{' '}
-          <b>{"Safaris"}</b>
+          {"Our"}{' '}
+          <b>{"Gallery"}</b>
         </Text>
       </Flex>
 
-      <Flex
-        justifyContent={'center'}
-        alignItems={'center'}
-        bg={useColorModeValue('white', '#0a0a0a')}
-        color={useColorModeValue('gray.600', 'white')}
-
-      >
-
-
-        <SearchBar search={search} onSearch={onSearch} />
-      </Flex>
+   
 
       <Box bg={useColorModeValue('white', '#0a0a0a')}
         color={useColorModeValue('gray.600', 'white')}>
@@ -91,26 +81,137 @@ console.log(setLoading)
           bg={useColorModeValue('white', '#0a0a0a')}
           color={useColorModeValue('gray.600', 'white')}
           paddingTop={20} paddingX={['10px', '20%']} columns={[2, null, 4]} gap={["20px", "40px"]}>
-               <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/1`}>
-            <Card />
+               <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
           </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/2`}>
-            <Card />
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
           </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/3`}>
-            <Card />
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
           </Box>
-          <Box as={'a'}
-            //@ts-expect-error:typefix
-            href={`item/4`}>
-            <Card />
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
           </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+          <Box >
+                <Image
+        borderRadius="full"
+        boxSize="40px"
+        src="2.jpeg"
+        alt={`image`}
+      />
+          </Box>
+        
+    
+         
 {/* 
           {loading ? (
             <Flex pt={24} align="center" justify="center">
