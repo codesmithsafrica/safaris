@@ -44,31 +44,7 @@ export default function Home() {
     const description=`Explore the rich cultural heritage and vibrant history of Mombasa with our immersive city and cultural tours. From the historic streets of Old Town, with its fascinating Swahili architecture and bustling markets, to the iconic Fort Jesus, our expert guides will take you on a journey through the heart of Mombasa. Discover the city’s diverse influences, including Arab, Portuguese, and African cultures, through visits to local mosques, spice markets, and artisan workshops.
 
 Our tours offer a unique chance to experience Mombasa's lively traditions, local cuisine, and authentic crafts. Enjoy walking tours through vibrant neighborhoods, taste delicious Swahili dishes, and learn about the rich history that shaped this coastal gem. Whether you're interested in history, art, or local customs, our customized cultural tours provide a deep dive into Mombasa's heritage.Guided visits to Lamu Old Town (UNESCO site), Mombasa Fort Jesus, Giriama villages.MOMBASA CITY TOUR
-Akamba carvings
-HindumosqUe
-Elephant task 
-FortJesus
-Old town 
-Mama Ngina garden's Ferry
--Mombasa History-
-MALINDI CITY  TOUR
-Arabuko sokoke forest(butterflies)
-Gede Ruines
-Vasco da gama pillar
-1st church east and central Africa
-Old court 
-Sabaki bridge
-Falcon birds
-Mabrui Dunes(small Dubai)
-KILIFI TOURS
-Jumbaruines
-Mtwapa ruines
-Kilifi museum 
-Barn owl cave
-Chasimba caves
-Diani Tour
-Shimoni
-Pate island`
+`
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
