@@ -53,9 +53,7 @@ export default function Home() {
           spacing={{ base: 20, sm: 3, md: 5, lg: 20 }} p={4}>
           <Box>
                   <Heading>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
-                    Fill up the form below to contact
-                  </Text>
+                 
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                     <VStack pl={0}
                           //@ts-expect-error:fix 
@@ -132,63 +130,6 @@ export default function Home() {
                   </HStack>
                 </Box>
 
-                <Box bg="white" borderRadius="lg">
-                  <Box m={8} color="#0B0E3F">
-                    <VStack
-                       //@ts-expect-error:fix 
-                     spacing={5}>
-                    <Field.Root>
-      <Field.Label>Email</Field.Label>
-      <Input placeholder="me@example.com" />
-    </Field.Root>
-    <Field.Root>
-      <Field.Label>Email</Field.Label>
-      <Input placeholder="me@example.com" />
-    </Field.Root>
-    <Field.Root>
-      <Field.Label>Email</Field.Label>
-      <Input placeholder="me@example.com" />
-    </Field.Root>
-    <Field.Root>
-      <Field.Label>Email</Field.Label>
-      <Input placeholder="me@example.com" />
-    </Field.Root>
-                      {/* <FormControl id="name">
-                        <FormLabel>Your Name</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement pointerEvents="none">
-                            <BsPerson color="gray.800" />
-                          </InputLeftElement>
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Mail</FormLabel>
-                        <InputGroup borderColor="#E0E1E7">
-                          <InputLeftElement pointerEvents="none">
-                            <MdOutlineEmail color="gray.800" />
-                          </InputLeftElement>
-                          <Input type="text" size="md" />
-                        </InputGroup>
-                      </FormControl>
-                      <FormControl id="name">
-                        <FormLabel>Message</FormLabel>
-                        <Textarea
-                          borderColor="gray.300"
-                          _hover={{
-                            borderRadius: 'gray.300',
-                          }}
-                          placeholder="message"
-                        />
-                      </FormControl>
-                      <FormControl id="name" float="right">
-                        <Button variant="solid" bg="#0D74FF" color="white" _hover={{}}>
-                          Send Message
-                        </Button>
-                      </FormControl> */}
-                    </VStack>
-                  </Box>
-                </Box>
              
           </Box>
         </Box>
