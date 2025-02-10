@@ -109,6 +109,10 @@ const TestimonialAvatar = ({
   return (
     <Flex align={'center'} mt={8} direction={'column'}>
       {/* <Avatar src={src} mb={2} /> */}
+        <Avatar.Root>
+      
+      <Avatar.Image src={src} />
+    </Avatar.Root>
       <Stack
            //@ts-expect-error:fix 
        spacing={-1} align={'center'}>
