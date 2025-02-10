@@ -93,7 +93,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src={'4.jpg'}
         alt={`image`}
       />
           </Box>
@@ -101,7 +101,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -109,7 +109,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -117,7 +117,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -125,7 +125,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -133,7 +133,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -141,7 +141,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -149,7 +149,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -157,7 +157,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -165,7 +165,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -173,7 +173,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -181,7 +181,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -189,7 +189,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -197,7 +197,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
@@ -205,7 +205,7 @@ console.log(setLoading)
                 <Image
         borderRadius="full"
         boxSize="40px"
-        src="2.jpeg"
+        src="2.jpg"
         alt={`image`}
       />
           </Box>
