@@ -52,7 +52,7 @@ export default function Home() {
                 //@ts-expect-error:fix  
           spacing={{ base: 20, sm: 3, md: 5, lg: 20 }} p={4}>
           <Box>
-                  <Heading>Contact</Heading>
+                  <Heading alignSelf={'center'}>Contact</Heading>
                  
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                     <VStack pl={0}
@@ -72,7 +72,7 @@ export default function Home() {
                       <Button
                         size="md"
                         height="48px"
-                        width="200px"
+                        width="250px"
                         variant="ghost"
                         color="#DCE2FF"
                         _hover={{ border: '2px solid #1C6FEB' }}
