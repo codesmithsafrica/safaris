@@ -290,7 +290,7 @@ export default function Home() {
         <Stack 
             //@ts-expect-error:fix 
         spacing={0} align={'center'}>
-          <Heading>Our Team</Heading>
+          <Heading mt={4}  fontWeight={700} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Our Team</Heading>
           {/* <Text>We have been working with clients around the world</Text> */}
         </Stack>
         <Stack
