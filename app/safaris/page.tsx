@@ -49,7 +49,7 @@ export default function Home() {
       ]
    const description=` Embark on an unforgettable wildlife safari with our expert-guided tours in Kenya, where nature’s wonders unfold before your eyes. From the iconic Maasai Mara to the vast savannahs of Amboseli and the scenic beauty of Tsavo, our safaris offer you an up-close experience with Kenya’s diverse wildlife. Witness the majestic "Big Five" – lions, elephants, buffaloes, leopards, and rhinos – in their natural habitats, along with hundreds of bird species, giraffes, and cheetahs.
 
-Our personalized safaris are designed to match your preferences, whether you prefer luxury accommodations, intimate private tours, or adventurous camping experiences. Our knowledgeable guides ensure that you gain a deep understanding of the wildlife and ecosystems, while ensuring your comfort and safety. With flexible itineraries, we take you on the best game drives, nature walks, and even hot air balloon safaris for a truly magical experience. Explore Kenya's renowned national parks and reserves for a wildlife adventure of a lifetime.3–7-day tours to Tsavo East/West, Amboseli, and Maasai Mara. Includes luxury lodges/camping..`
+Our personalized safaris are designed to match your preferences..`
   // const itemsApiURL = `${process.env.NEXT_PUBLIC_NEXTAUTH_URL}/api/item/${params?.id}`;
   // useEffect(() => {
   //   setLoading(true)
