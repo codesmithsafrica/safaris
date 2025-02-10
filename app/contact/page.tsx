@@ -68,7 +68,7 @@ export default function Home() {
                         _hover={{ border: '2px solid #1C6FEB' }}
                         // leftIcon={<MdPhone color="#1970F1" size="20px" />}
                         >
-                        +91-988888888
+                     <MdPhone color="#1970F1" size="20px" /> 075962203
                       </Button>
                       <Button
                         size="md"
@@ -79,7 +79,7 @@ export default function Home() {
                         _hover={{ border: '2px solid #1C6FEB' }}
                         // leftIcon={<MdEmail color="#1970F1" size="20px" />}
                         >
-                        hello@abc.com
+                       <MdEmail color="#1970F1" size="20px" /> maiyobespoketoursandtravel.com
                       </Button>
                       <Button
                         size="md"
@@ -90,7 +90,8 @@ export default function Home() {
                         _hover={{ border: '2px solid #1C6FEB' }}
                         // leftIcon={<MdLocationOn color="#1970F1" size="20px" />}
                         >
-                        Karnavati, India
+                          <MdLocationOn color="#1970F1" size="20px" />
+                        Mtwapa, Kilifi
                       </Button>
                     </VStack>
                   </Box>
