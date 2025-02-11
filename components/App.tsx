@@ -69,13 +69,14 @@ const App = ({ children }: Iprops) => {
           </Flex>
           <Flex 
                   alignItems={'center'} flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            {/* <Text
+            <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
-              Safaris
-            </Text> */}
-                <Image h={35}  src={'logo.jpeg'} alt={'logo'} />
+              Maiyo Bespoke Tours and Travel 
+            </Text>
+                {/* <Image h={35}  src={'logo.jpeg'} alt={'logo'} /> */}
+                
 
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />

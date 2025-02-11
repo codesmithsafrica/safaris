@@ -25,7 +25,9 @@ export type ItemProps = {
   id: number;
   name: string;
   image: string;
-  badge: string;
+  long: string;
+  lat: number;
+  badge: number;
   category: { name: string }
 
 

@@ -38,7 +38,7 @@ export default function CaptionCarousel() {
   // buttons as the screen size changes
   const top = useBreakpointValue({ base: '90%', md: '50%' })
   const side = useBreakpointValue({ base: '30%', md: '40px' })
-  const color = useColorModeValue('GrayText', 'white')
+  const color = useColorModeValue('black', 'black')
 
   // This list contains all the data for carousels
   // This can be static or loaded from a server
@@ -125,7 +125,7 @@ export default function CaptionCarousel() {
                 position="absolute"
                 top="70%"
                 transform="translate(0, -50%)">
-                <Heading fontWeight={700}fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                <Heading  color={color} fontWeight={700}fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
                   {card.title}
                 </Heading>
                 <Text fontWeight={500} fontSize={{ base: 'md', lg: 'xl' }}     color={color}>
