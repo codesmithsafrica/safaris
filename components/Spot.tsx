@@ -88,7 +88,7 @@ export default function Spot({ name, description, badge, img, loading }: Props) 
           justify={['center']}
           align={'center'}
           position={'relative'}
-          width={'50%'}>
+          width={['100%','50%']}>
           <Blob
             // w={'150%'}
             h={'150%'}
