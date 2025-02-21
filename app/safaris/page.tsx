@@ -29,6 +29,40 @@ export default function Home() {
             
         },
         {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             '40.jpg'
+            
+        },
+        {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             '41.jpg'
+            
+        },
+        {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             '42.jpg'
+            
+        },
+        {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             '34.jpg'
+            
+        },        {
+          title: 'Memorable Safaris ',
+          text: "Let us make your memories unfogettable",
+          image:
+             '43.jpg'
+            
+        },
+        {
           title: 'Hidden Gems',
           text: "Hidden but conspicuous spots  just for you",
           image:

@@ -35,6 +35,18 @@ export default function Home() {
       '1.jpg',
     },
     {
+      title: 'Hidden Gems',
+      text: "Hidden but conspicuous spots  just for you",
+      image:
+      '15.jpg',
+    },
+    {
+      title: 'Hidden Gems',
+      text: "Hidden but conspicuous spots  just for you",
+      image:
+      '24.jpg',
+    },
+    {
       title: 'City/Coastal Cultural Tours',
       text: "Directly connect with coastal cultural tours",
       image:

@@ -387,9 +387,16 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Contact Us',
     href: '/contact/',
   },
-  {
-    label: 'Gallery',
-    href: '/gallery/',
-  },
+  {label:'Locations',
+    children:[
+      {label:'Kilifi',href:'/gallery'},
+      {label:'Mombasa',href:'/mombasa'},
+      {label:'Watamu',href:'/watamu'},
+      {label:'Lamu',href:'/lamu'},
+      {label:'Diani',href:'/diani'}
+
+    ]
+  }
+  
 ]
 export default App;
