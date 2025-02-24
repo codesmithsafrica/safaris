@@ -191,7 +191,7 @@ export default function Home() {
             spacing={4} maxW={'3xl'} textAlign={'center'}>
             <Heading fontWeight={700}  mt={4} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}>Who are we?</Heading>
             <Text color={'gray.600'} fontStyle={'italic'}  fontSize={'xl'}>
-              Maiyo Adventures is a Mtwapa, Kilifi County-based tour and travel company dedicated
+              Maiyo Bespoke Tours and Travel  is a Mtwapa, Kilifi County-based tour and travel company dedicated
               to delivering immersive, sustainable travel experiences across coastal Kenya and East
               Africa. With the slogan “Your Experience, Our Passion,” we cater to domestic and
               international tourists seeking authentic cultural encounters, wildlife safaris, and curated

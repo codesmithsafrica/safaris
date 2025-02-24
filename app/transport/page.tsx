@@ -32,7 +32,7 @@ export default function Home() {
           title: 'Hidden Gems',
           text: "Hidden but conspicuous spots  just for you",
           image:
-          'transport.jpg',
+          'transport.jpeg',
         },
         {
           title: 'City/Coastal Cultural Tours',
