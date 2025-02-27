@@ -47,7 +47,7 @@ export default function CaptionCarousel() {
       title: 'Memorable Safaris ',
       text: "Let us make your memories unfogettable",
       image:
-         '21.jpg'
+         'tours3.jpg'
         
     },
     {
@@ -60,7 +60,7 @@ export default function CaptionCarousel() {
       title: 'City/Coastal Cultural Tours',
       text: "Directly connect with coastal cultural tours",
       image:
-        'tours.jpg',
+        '1.jpg',
     },
   ]
 
